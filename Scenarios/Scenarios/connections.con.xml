@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections>
+    <connection from="1btomain" to="mainto3" fromLane="0" toLane="0"/>
+    <connection from="1btomain" to="mainto3" fromLane="1" toLane="1"/>
+    <connection from="1btomain" to="mainto2" fromLane="2" toLane="1"/>
+
+    <connection from="1to1b" to="1btomain" fromLane="0" toLane="0"/>
+    <connection from="1to1b" to="1btomain" fromLane="1" toLane="1"/>
+    <connection from="1to1b" to="1btomain" fromLane="1" toLane="2"/>
+
+    <connection from="3tomain" to="mainto1" fromLane="0" toLane="0"/>
+    <connection from="3tomain" to="mainto1" fromLane="1" toLane="1"/>
+
+    <connection from="3tomain" to="mainto1" fromLane="0" toLane="0"/>
+    <connection from="3tomain" to="mainto1" fromLane="1" toLane="1"/>
+    <connection from="3tomain" to="mainto2" fromLane="0" toLane="0"/>
+
+    <connection from="2tomain" to="mainto1" fromLane="0" toLane="0"/>
+    <connection from="2tomain" to="mainto3" fromLane="1" toLane="1"/>
+</connections>

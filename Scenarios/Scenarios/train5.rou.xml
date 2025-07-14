@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <!-- Define vehicle types -->
+    <vType id="car" accel="2.3" decel="3.0" sigma="0.5" length="4.0" maxSpeed="44.7" minGap="2.5" carFollowModel="CACC" lcModel="SL2015" lcStrategic="1.0" lcCooperative="1.0" lcAssertive="1.3"/>
+    
+    <!-- Define routes -->
+    <route id="route0" edges="1to1b 1btomain mainto2"/>
+    <route id="route1" edges="1to1b 1btomain mainto3"/>
+    
+    <!-- Define vehicles with specific lanes -->
+    <vehicle id="veh0" type="car" route="route0" depart="0" departLane="1" departSpeed="13.9"/>
+    <vehicle id="veh1" type="car" route="route0" depart="1.5" departLane="0" departSpeed="13.9"/>
+    <vehicle id="veh2" type="car" route="route0" depart="6" departLane="1" departSpeed="13.9"/>
+</routes>
