@@ -1,0 +1,3 @@
+To run this code the latest version of the Simulation of Urban Mobility must be downloaded at https://sumo.dlr.de/docs/Downloads.php
+
+Also when these programs were run all the code and the files were in the same directory. To make it more presentable this was changed however within the code a few file paths may have to be adapted for the .sumocfg scenarios and the .npy results for the code to run as intended.
